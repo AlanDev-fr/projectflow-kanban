@@ -1,0 +1,130 @@
+# ============================================
+# 🔒 INFORMACIÓN SENSIBLE - NUNCA SUBIR
+# ============================================
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Archivos de configuración de Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Claves y secretos
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# ============================================
+# 📱 EXPO / REACT NATIVE
+# ============================================
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Metro bundler
+.metro-health-check*
+
+# OSX
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# ============================================
+# 🔧 IDE / EDITOR
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================
+# 📦 BUILD / COMPILACIÓN
+# ============================================
+
+# iOS
+ios/Pods/
+ios/build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+DerivedData/
+
+# Android
+android/.gradle
+android/build/
+android/app/build/
+*.apk
+*.aab
+local.properties
+
+# ============================================
+# 🧪 TESTING / COVERAGE
+# ============================================
+
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# 📝 LOGS Y TEMPORALES
+# ============================================
+
+*.log
+logs/
+tmp/
+temp/
+
+# ============================================
+# 🎨 ASSETS (Si son muy pesados)
+# ============================================
+
+# Descomentar si tienes assets muy grandes que no quieres en Git
+# assets/videos/
+# assets/large-images/
+
+# ============================================
+# 📚 DOCUMENTACIÓN GENERADA
+# ============================================
+
+# TypeDoc
+docs/generated/
+
+# Storybook
+storybook-static/
+
+# ============================================
+# 🚀 DEPLOYMENT
+# ============================================
+
+# EAS Build
+.eas-build-*
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
